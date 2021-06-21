@@ -48,3 +48,13 @@ hr{
     margin-top: -15px;
     margin-bottom: 10px;
 }
+
+.acercademi h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.acercademi img{
+    padding: 0 20%;
+    width: 100%;
+}
