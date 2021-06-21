@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+    color: white;
+    font-size: 22px;
+    font-family: "Oswald", sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 200px;
+}
+
+.nav-main ul{
+    display: flex;
+}
+
+.nav-main ul li{
+    padding: 15px;
+}
+
+.nav-main ul li a:hover{
+    color: #fdd947;
+    border-bottom: 2px solid #fdd947;
+}
+
+/* PRINCIPAL */
+hr{
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+.principal{
+    width: 100%;
+    height: 550px;
+    background: url('img/frente.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 50px;
+    background-image: linear-gradient(to left, #bdbbbe00 0%, #9d9ea300 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.281) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(110, 46, 46, 0.089) 0%, rgba(0, 0, 0, 0.089) 100%), url(./img/frente.jpg);
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal h2,
+.principal p{
+    margin-top: 10px;
+}
+
+/* REDES */
+.redes{
+    margin: 40px;
+}
+
+.redes p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a{
+    margin: 0 10px;
+    font-size: 30px;
+}
+
+/*FOOTER*/
+.footer{
+    background: white;
+}
+
+.footer h3{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer h3 a{
+    color: black;
+}
+
+.footer h3 a:hover{
+    color: #fdd947;
+}
+
+@media (max-width: 700px){
+
+}

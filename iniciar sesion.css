@@ -1,0 +1,86 @@
+body {
+    align-items: center;
+    padding-bottom: 40px;
+    background-color: black;
+    font-size: 22px;
+    font-family: "Oswald", sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 200px;
+}
+
+.nav-main ul{
+    display: flex;
+}
+
+.nav-main ul li{
+    padding: 15px;
+}
+
+.nav-main ul li a:hover{
+    color: #fdd947;
+    border-bottom: 2px solid #fdd947;
+}
+
+hr{
+    margin-top: -15px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+html, body {
+    height: 100%;
+}
+.form-container { 
+    text-align: center;
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    color: whitesmoke;
+    padding-top: 10%;
+}
+
+.titulo-rojo{
+    color: red;
+    font-size: 40px;
+}
+
+.my-button{
+    margin: 20px 0;
+}
+
+.my-title{
+    margin-bottom: 15px;
+}
+
+#recuerdame{
+    float: none;
+}
+
+.error-message{
+    color:red;
+}
