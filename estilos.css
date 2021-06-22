@@ -102,6 +102,10 @@ hr{
     font-size: 30px;
 }
 
+.links a:hover{
+    color: #fdd947;
+}
+
 /*FOOTER*/
 .footer{
     background: white;
