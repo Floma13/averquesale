@@ -9,6 +9,9 @@ body{
     color: white;
     font-size: 22px;
     font-family: "Oswald", sans-serif;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 a{

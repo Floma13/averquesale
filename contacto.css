@@ -8,7 +8,9 @@ body {
     background-color: black;
     font-size: 22px;
     font-family: "Oswald", sans-serif;
-    width: 100%;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 a{
@@ -21,17 +23,18 @@ nav a{
     padding-left: 25px;
 }
 
-.data{
+.container{
     padding: 2em;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
 }
 
-.data ul li{
+.container ul li{
     list-style-type: none;
-    margin: 0 65px;
     color: white;
+    display: flex;
+    justify-content: left;
+    width: 100%;
 }
 
 .data ul li a:hover{
@@ -39,8 +42,9 @@ nav a{
 }
 
 .map{
-    width: 60%;
-    padding-left: 135px;
+    width: 90%;
+    display: flex;
+    justify-content: left;
 }
 
 /*FOOTER*/
@@ -63,7 +67,4 @@ nav a{
 
 .footer h3 a:hover{
     color: #fdd947;
-}
-
-@media (max-width: 700px){
 }

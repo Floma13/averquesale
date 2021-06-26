@@ -3,7 +3,9 @@ body{
     color: white;
     font-size: 22px;
     font-family: "Oswald", sans-serif;
-    width: 100%;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 a{
