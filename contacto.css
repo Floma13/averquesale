@@ -24,17 +24,16 @@ nav a{
 }
 
 .container{
-    padding: 2em;
-    display: flex;
-    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
 }
 
 .container ul li{
     list-style-type: none;
     color: white;
-    display: flex;
     justify-content: left;
-    width: 100%;
+    width: 90%;
+    margin: auto;
 }
 
 .data ul li a:hover{
@@ -43,8 +42,7 @@ nav a{
 
 .map{
     width: 90%;
-    display: flex;
-    justify-content: left;
+    margin: auto;
 }
 
 /*FOOTER*/
@@ -52,7 +50,9 @@ nav a{
     background:#ffcd04;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    width: 90%;
+    margin: auto;
+
 }
 
 .footer h3{
